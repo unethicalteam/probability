@@ -29,7 +29,7 @@ don't worry, everything will be taken care of for you.</br>
 
 ### 2. Download / Fork repo.me
 
-If you are _not_ hosting your repo on [GitHub Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/localdevice/repo.me/archive/master.zip) and extract to a subfolder on your website.
+If you are _not_ hosting your repo on [GitHub Pages](https://pages.github.com/), you can download the zip file [here](https://github.com/uchks/repo.me/archive/master.zip) and extract to a subfolder on your website.
 
 There are 2 options for those using [GitHub Pages](https://pages.github.com/).
 
@@ -75,12 +75,12 @@ The data below are the links that appear at the bottom of every **Webview / Cydi
     <footerlinks>
         <link>
             <name>Follow me on Twitter</name>
-            <url>https://twitter.com/localdevice</url> # Feel free to swap your twitter in for this!
+            <url>https://twitter.com/uchks</url> # Feel free to swap your twitter in for this!
             <iconclass>fa fa-twitter</iconclass>
         </link>
         <link> # You can remove this if you wish, however if I may, please do not do so! It will allow others to find repo.me such as you have!
             <name>I want this depiction template</name>
-            <url>https://github.com/localdevice/repo.me</url>
+            <url>https://github.com/uchks/repo.me</url>
             <iconclass>fa fa-thumbs-up</iconclass>
         </link>
     </footerlinks>
@@ -104,7 +104,7 @@ Rename the duplicate with the same name as your package name. </br>
 There are 2 files inside the folder - `info.xml` and `changelog.xml`. </br>
 Update the 2 files with information regading your package. </br>
 The tags are pretty much self-explanatory. </br>
-Contact [@localdevice](https://twitter.com/localdevice) for questions.
+Contact [@nunchuchks](https://twitter.com/nunchuchks) for questions.
 
 `info.xml`.
 
@@ -151,7 +151,7 @@ Contact [@localdevice](https://twitter.com/localdevice) for questions.
 Go to the /depictions/native/faith.jasons.samplepackage and copy the file `depiction.json`. </br>
 Move into a folder labeled as your package name. </br>
 Edit The Labeled Parts (i.e. VERSION_NUMBER, TWEAK_NAME, etc.)</br>
-Contact [@localdevice](https://twitter.com/localdevice) for questions.
+Contact [@nunchuchks](https://twitter.com/nunchuchks) for questions.
 
 #### 2. Link the depiction page in your tweak's `control` file
 
@@ -202,7 +202,7 @@ These are some extra things that can make your repository look even better on Si
 Change The Following Lines:
 
 ```
- "url": "https://raw.githubusercontent.com/localdevice/repo.me/master/assets/Banners/RepoHeader.png", <---- The Package Banner
+ "url": "https://raw.githubusercontent.com/uchks/repo.me/master/assets/Banners/RepoHeader.png", <---- The Package Banner
         "title": "Sample Package", <---- Your Package Name
         "package": "faith.jasons.newpackage", <---- The Actual Package
 ```
