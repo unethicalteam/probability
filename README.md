@@ -75,7 +75,7 @@ The data below are the links that appear at the bottom of every **Webview / Cydi
     <footerlinks>
         <link>
             <name>Follow me on Twitter</name>
-            <url>https://twitter.com/uchks</url> # Feel free to swap your twitter in for this!
+            <url>https://twitter.com/?</url> # Feel free to swap your twitter in for this!
             <iconclass>fa fa-twitter</iconclass>
         </link>
         <link> # You can remove this if you wish, however if I may, please do not do so! It will allow others to find repo.me such as you have!
@@ -99,18 +99,18 @@ Next guide will show you how to assign and customize your depiction pages.
 
 ### 1.1 Adding a simple depiction page (Web Folder / Cydia)
 
-Go to the depictions folder and duplicate the folder `faith.jasons.oldpackage`. </br>
+Go to the depictions folder and duplicate the folder `com.example.oldpackage`. </br>
 Rename the duplicate with the same name as your package name. </br>
 There are 2 files inside the folder - `info.xml` and `changelog.xml`. </br>
 Update the 2 files with information regading your package. </br>
 The tags are pretty much self-explanatory. </br>
-Contact [@nunchuchks](https://twitter.com/nunchuchks) for questions.
+Contact [hi@air.rip](mailto:hi@air.rip) for questions.
 
 `info.xml`.
 
 ```xml
 <package>
-    <id>faith.jasons.oldpackage</id>
+    <id>com.example.oldpackage</id>
     <name>Old Package</name>
     <version>1.0.0-1</version>
     <compatibility>
@@ -148,7 +148,7 @@ Contact [@nunchuchks](https://twitter.com/nunchuchks) for questions.
 
 ### 1.2 Adding a simple depiction page (Native Folder / Sileo)
 
-Go to the /depictions/native/faith.jasons.samplepackage and copy the file `depiction.json`. </br>
+Go to the /depictions/native/com.example.samplepackage and copy the file `depiction.json`. </br>
 Move into a folder labeled as your package name. </br>
 Edit The Labeled Parts (i.e. VERSION_NUMBER, TWEAK_NAME, etc.)</br>
 Contact [@nunchuchks](https://twitter.com/nunchuchks) for questions.
@@ -204,8 +204,8 @@ Change The Following Lines:
 ```
  "url": "https://raw.githubusercontent.com/uchks/repo.me/master/assets/Banners/RepoHeader.png", <---- The Package Banner
         "title": "Sample Package", <---- Your Package Name
-        "package": "faith.jasons.newpackage", <---- The Actual Package
+        "package": "com.example.sample", <---- The Actual Package
 ```
 
-  <p align="center">Special Thanks and Credits to: <a href="https://github.com/Supermamon/">Supermamon</a> for <a href="https://github.com/supermamon/Reposi3">Reposi3</a> (the base) & <a href="https://twitter.com/Diatrus/">Diatrus</a> for apt-ftparchive on macOS</p>
+  <p align="center">Special Thanks and Credits to: <a href="https://github.com/Supermamon/">Supermamon</a> for <a href="https://github.com/supermamon/Reposi3">Reposi3</a> (the base) & <a href="https://github.com/Diatrus/">Diatrus</a> for apt-ftparchive on macOS</p>
 </center>
