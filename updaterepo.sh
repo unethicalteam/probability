@@ -213,7 +213,7 @@ main() {
             fi
             ;;
         *)
-            echo "Error: Running an unsupported operating system. Contact me via X: @uchkence"
+            echo "Error: Running an unsupported operating system. Email me: hi@air.rip"
             exit 1
             ;;
     esac
