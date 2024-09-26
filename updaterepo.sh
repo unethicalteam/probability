@@ -80,14 +80,14 @@ generate_or_input_key() {
         key_id=$(gpg --with-colons --import-options show-only --import "$GPG_KEY_FILE" | awk -F: '/^pub/ { print $5 }')
     else
         echo "Do you want to generate a new GPG key or use an existing one? (enter 'gen' or 'use'): "
-        read action
+        read -r action
 
         case "$action" in
             gen)
                 echo "Enter your name: "
-                read realname
+                read -r realname
                 echo "Enter your email: "
-                read email
+                read -r email
                 generate_gpg_key "$realname" "$email"
                 echo "Exporting the public key..."
                 gpg --export "$key_id" > "$GPG_KEY_FILE"
@@ -97,7 +97,7 @@ generate_or_input_key() {
                 echo "List of available keys:"
                 gpg --list-secret-keys --keyid-format=long
                 echo "Enter the key ID (the value after 'sec' in the list above): "
-                read key_id
+                read -r key_id
                 echo "Exporting the public key..."
                 gpg --export "$key_id" > "$GPG_KEY_FILE"
                 echo "GPG key exported to $GPG_KEY_FILE"
@@ -112,12 +112,12 @@ generate_or_input_key() {
 
 edit_repo_conf() {
     echo "Enter the Repository Name: "
-    read origin
+    read -r origin
     label="$origin"
     echo "Enter the Repository Codename: "
-    read codename
+    read -r codename
     echo "Enter the Repository Description: "
-    read description
+    read -r description
 
     save_config
 }
@@ -158,9 +158,9 @@ update_repo() {
 
 install_packages() {
     echo "Checking for required packages..."
-    packages=(apt-utils gnupg xz-utils zstd bzip2 lz4 gzip gawk)
+    packages="apt-utils gnupg xz-utils zstd bzip2 lz4 gzip gawk"
 
-    for package in "${packages[@]}"; do
+    for package in $packages; do
         if ! dpkg -s "$package" &> /dev/null; then
             sudo apt-get update
             sudo apt-get install -y "$package"
@@ -174,9 +174,9 @@ install_brew_packages() {
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     fi
 
-    brew_packages=(wget gnupg xz zstd bzip2 lz4 gzip gawk)
+    brew_packages="wget gnupg xz zstd bzip2 lz4 gzip gawk"
 
-    for package in "${brew_packages[@]}"; do
+    for package in $brew_packages; do
         brew list --verbose "$package" || brew install "$package"
         clear
     done
