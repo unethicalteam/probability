@@ -8,7 +8,7 @@
 			"views": [
 				{
 					"class": "DepictionMarkdownView",
-					"markdown": "## TWEAK_NAME\nSHORT_DESCRIPTION"
+					"markdown": "## NoRedirect\nStop specified apps from redirecting to App Store, Safari, or other apps."
 				},
 				{
 					"class": "DepictionSeparatorView"
@@ -19,32 +19,27 @@
 				},
 				{
 					"title": "Version",
-					"text": "VERSION_NUMBER",
+					"text": "1.8",
 					"class": "DepictionTableTextView"
 				},
 				{
 					"title": "Released",
-					"text": "RELEASE_DATE",
+					"text": "October 4, 2024",
 					"class": "DepictionTableTextView"
 				},
 				{
 					"title": "Price",
-					"text": "PRICE",
+					"text": "Free",
 					"class": "DepictionTableTextView"
 				},
 				{
 					"title": "Developer",
-					"text": "DEVELOPER_NAME",
+					"text": "OwnGoalStudio",
 					"class": "DepictionTableTextView"
 				},
 				{
 					"title": "Website",
-					"action": "WEBSITE_HERE",
-					"class": "DepictionTableButtonView"
-				},
-				{
-					"title": "Use This Template",
-					"action": "https://github.com/uchks/repo.me",
+					"action": "https://repo.unethical.team",
 					"class": "DepictionTableButtonView"
 				},
 				{
@@ -62,18 +57,18 @@
 			"tabname": "Changelog",
 			"views": [
 				{
-					"title": "VERSION_NUMBER",
+					"title": "1.8",
 					"useBoldText": true,
 					"useBottomMargin": true,
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\n\u2022 UPDATE_DESCRIPTION",
+					"markdown": "\t\n\u2022 New Icon Design, View redirect statistics "by application". Decline redirect request from breadcrumbs.",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},
 				{
-					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released RELEASE_DATE</small>",
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">Released October 4, 2024.</small>",
 					"useRawFormat": true,
 					"class": "DepictionMarkdownView"
 				}

@@ -1,0 +1,17 @@
+Package: com.82flex.noredirect
+Architecture: iphoneos-arm
+Version: 1.8
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 708
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy
+Filename: ./debians/com.82flex.noredirect_1.8_iphoneos-arm.deb
+Size: 77592
+MD5sum: 351f2230f629b4543d784e9a9f361beb
+SHA1: da4be719459d9b27e55d73c714e915356db598ec
+SHA256: 063f9cb7937ef96e2542aa6088b0140e214f2c2e6b45a298f6824d473d73dd2a
+SHA512: 32754e00d17042e6844c5959c7c408659cd7d1fa24404520ca6c0601e301f4a32d52b48e20c1b19104830f544bdeaf780e6dac1bcfa25204637628b4a1e5525d
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Name: No Redirect
+Author: Lessica <82flex@gmail.com>
+

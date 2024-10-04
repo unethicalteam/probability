@@ -1,0 +1,8 @@
+<changelog>
+	<changes>
+		<version>1.8</version>
+		<change>New icon design.</change>
+		<change>View redirect statistics "by application".</change>
+		<change>Decline redirect request from breadcrumbs.</change>
+	</changes>
+</changelog>
