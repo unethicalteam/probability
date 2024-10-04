@@ -63,7 +63,7 @@
 					"class": "DepictionSubheaderView"
 				},
 				{
-					"markdown": "\t\n\u2022 New Icon Design, View redirect statistics "by application". Decline redirect request from breadcrumbs.",
+					"markdown": "\t\n\u2022 New Icon Design, View redirect statistics by application. Decline redirect request from breadcrumbs.",
 					"useSpacing": false,
 					"class": "DepictionMarkdownView"
 				},

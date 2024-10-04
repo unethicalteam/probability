@@ -1,0 +1,4 @@
+com.82flex.noredirect:1.8:iphoneos-arm:Stop specified apps from redirecting to App Store, Safari or other apps.:Lessica <82flex@gmail.com>:No Redirect:null
+com.82flex.noredirect:1.8:iphoneos-arm64:Stop specified apps from redirecting to App Store, Safari or other apps.:Lessica <82flex@gmail.com>:No Redirect:null
+com.parrotgeek.nobetaalert:1.4.3:iphoneos-arm64:Hide "Please update from the iOS beta" alert (iOS 9-13.x):Ethan Nelson-Moore:NoBetaAlert:null
+com.rosiepie.flora:1.1.5-5+debug:iphoneos-arm64:A modern color changer, built for today's jailbreaks.:Rosie:Flora:https://raw.githubusercontent.com/acquitelol/flora/1.0.3/Preferences/Resources/FullIcon.png

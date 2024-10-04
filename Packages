@@ -15,3 +15,55 @@ Description: Stop specified apps from redirecting to App Store, Safari or other 
 Name: No Redirect
 Author: Lessica <82flex@gmail.com>
 
+Package: com.82flex.noredirect
+Architecture: iphoneos-arm64
+Version: 1.8
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 708
+Depends: firmware (>= 14.0), mobilesubstrate, com.opa334.altlist, com.opa334.libsandy, xyz.cypwn.xinam1ne
+Filename: ./debians/com.82flex.noredirect_1.8_iphoneos-arm64.deb
+Size: 72200
+MD5sum: c46062997ecbe1504367971c22489883
+SHA1: 79759a63c1605f7fce6c0752a031168d4f222c30
+SHA256: 616650e158ec02dd109a9ce43be5d9868af6dcf9c552c4c9f42234223788125b
+SHA512: 92043583737761e120891985e5f4e3a07ea53b606015f8c721f815875591236dd7ac916de5ca77142ca8f91d2668f31fd6d9a6c271883a67994bdb6302589b2f
+Description: Stop specified apps from redirecting to App Store, Safari or other apps.
+Name: No Redirect
+Author: Lessica <82flex@gmail.com>
+
+Package: com.parrotgeek.nobetaalert
+Architecture: iphoneos-arm64
+Version: 1.4.3
+Section: Tweaks
+Maintainer: Ethan Nelson-Moore
+Installed-Size: 200
+Depends: mobilesubstrate, firmware (>= 9)
+Filename: ./debians/com.parrotgeek.nobetaalert_1.4.3_iphoneos-arm64.deb
+Size: 3600
+MD5sum: 5854b671fd07b64f2e1067d499e25ff0
+SHA1: 9d8071deb63f81d6fe01f3ae3bf4557d98218ab6
+SHA256: 6dcfaa4c2560c4b6bee02311f9811b22dce9de700d212654f13a202a15d242ca
+SHA512: 8ad97c8dfbe63be76723bf51c9fca4c79da890cef1b6bc1f55d1ba366769be7642ff95958051833da20907d31438fe51994bb3d744dedcd392da5671d399d347
+Description: Hide "Please update from the iOS beta" alert (iOS 9-13.x)
+Name: NoBetaAlert
+Author: Ethan Nelson-Moore
+
+Package: com.rosiepie.flora
+Architecture: iphoneos-arm64
+Version: 1.1.5-5+debug
+Section: Tweaks
+Maintainer: Rosie
+Installed-Size: 2208
+Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.3), com.mrgcgamer.libgcuniversal, com.opa334.libsandy
+Filename: ./debians/com.rosiepie.flora_1.1.5_iphoneos-arm.deb
+Size: 1679246
+MD5sum: d0811e3fc40eda0d93d61cf56cc49147
+SHA1: a7dfee3b61f4f6dbef53c01f2ad0e220e221088d
+SHA256: 5eea9daa8912534f2c252b85583422e658565c7d035ed6c42dae4877ecaf9721
+SHA512: f33078a0be23185e3506438eeb374111a3123b05545f377d7acdf038ba7badb262314b3d99a6f22dd775f78dec094d2c83f676a995cb10797f4440ae58fe4685
+Description: A modern color changer, built for today's jailbreaks.
+Name: Flora
+Author: Rosie
+Icon: https://raw.githubusercontent.com/acquitelol/flora/1.0.3/Preferences/Resources/FullIcon.png
+

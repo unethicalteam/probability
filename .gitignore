@@ -1,3 +1,5 @@
 .DS_Store
 apt-ftparchive
 unethical-repo.gpg
+assets/repo/webhook.conf
+updaterepo.sh
