@@ -1,8 +1,0 @@
-<repo>
-    <footerlinks>
-        <link>
-            <name>Follow me on X</name>
-            <url>https://x.com/?</url> # Feel free to swap your X in for this!
-            <iconclass>fa-brands fa-x-twitter</iconclass>
-    </footerlinks>
-</repo>
